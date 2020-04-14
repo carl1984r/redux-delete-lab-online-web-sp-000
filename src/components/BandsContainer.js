@@ -22,4 +22,4 @@ const mapDispatchToProps = dispatch => ({
   deleteBand: id => dispatch({ type: 'DELETE_BAND', id })
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(BandsContainer)
+export default connect(mapStateToProps, mapDispatchToProps)(BandsContainer);
